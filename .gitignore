@@ -1,0 +1,53 @@
+# Rust
+/target
+**/*.rs.bk
+*.pdb
+
+# Coverage and profiling
+*.profraw
+*.profdata
+lcov.info
+cobertura.xml
+/tarpaulin-report.html
+/coverage/
+flamegraph.svg
+perf.data*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# SQLite databases and sidecar files
+*.db
+*.sqlite
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editors and IDEs
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/worktrees
+.claude/settings.local.json
