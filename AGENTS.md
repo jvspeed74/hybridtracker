@@ -20,8 +20,8 @@
 - Never commit to `main`. Every change reaches it through a pull request.
 - The body follows [`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md), with its sections in order.
   `gh pr create --body` does not apply the template.
-- Pull requests are squash-merged, so the pull request title becomes the commit on `main`. Write the title as a commit
-  message, in the format below.
+- Pull requests are merged with a merge commit, so every commit on the branch reaches `main` as written. Write each
+  commit message, and the pull request title, in the format below.
 
 **Commit messages** follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/):
 
