@@ -1,5 +1,5 @@
 ## Summary
-<!-- What changed and why. Name units, files, and spec criteria. -->
+<!-- What changed and why. Name units, files, and acceptance criteria. -->
 
 ## Gaps
 <!-- known gaps, follow-up work -->

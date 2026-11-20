@@ -29,7 +29,7 @@
 
 | Type       | Reach for it when                                                                      |
 |------------|----------------------------------------------------------------------------------------|
-| `feat`     | The change adds behavior the specification requires that did not exist before.         |
+| `feat`     | The change adds user-facing behavior that did not exist before.                        |
 | `fix`      | The change corrects defective behavior (i.e., a bug).                                  |
 | `refactor` | The change restructures code without altering user-facing behavior.                    |
 | `test`     | The change adds or corrects tests only.                                                |
